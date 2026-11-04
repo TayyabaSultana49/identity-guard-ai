@@ -267,7 +267,6 @@ reporting guidance for other countries, an EfficientNet or Xception based detect
 and video support.
 
 ## Author
-**Dhanasree**
-B.E. Information Technology, Stanley College of Engineering and Technology for Women (Autonomous), Hyderabad
+Tayyaba Sultana, Tandle Dhanasree, Syeda Rida Faseeh
 
-Feedback and suggestions are welcome through GitHub Issues.
+
