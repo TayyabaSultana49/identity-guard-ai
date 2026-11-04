@@ -4,7 +4,6 @@
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![Streamlit](https://img.shields.io/badge/UI-Streamlit-ff4b4b)
-![Status](https://img.shields.io/badge/status-academic%20prototype-informational)
 ![Privacy](https://img.shields.io/badge/privacy-local%20by%20default-success)
 
 Identity Guard AI helps a person check whether a suspected photograph may contain a
