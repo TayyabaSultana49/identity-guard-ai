@@ -1,0 +1,19 @@
+# Identity Guard AI - Python 3.11
+# Verified in automated tests: streamlit, pillow, reportlab, numpy, OpenCV (see tests/).
+# NOT verified by the author's test run: deepface, torch, transformers
+# (large AI packages; versions are left unpinned so pip resolves a compatible set).
+# After a successful install on YOUR machine, run `pip freeze > requirements-freeze.txt`
+# and consider pinning those versions for reproducibility.
+--extra-index-url https://download.pytorch.org/whl/cpu
+streamlit>=1.66
+opencv-python<5   # OpenCV 5.x removed CascadeClassifier, which this project needs
+numpy
+pillow>=10
+reportlab>=4
+deepface
+torch
+transformers
+huggingface_hub
+werkzeug
+# Dev/testing only
+pytest

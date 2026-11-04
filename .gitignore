@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+.pytest_cache/
+
+# Secrets / local config
+.env
+.streamlit/secrets.toml
+
+# Model weights (download with: python download_model.py) - keep only the README
+models/*
+!models/README.md
+
+# Private photographs - keep only the README
+sample_images/*
+!sample_images/README.md
+
+# Generated reports - keep only the placeholder
+reports/*
+!reports/.gitkeep
+
+# Local pip snapshots and IDE files
+requirements-freeze.txt
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
